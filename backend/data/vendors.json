@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Achu Kadai",
+    "location": "Anna Nagar",
+    "cuisine": "South Indian",
+    "rating": 4.6
+  },
+  {
+    "id": 2,
+    "name": "Bombay Chaat Corner",
+    "location": "T. Nagar",
+    "cuisine": "Chaat & Snacks",
+    "rating": 4.2
+  }
+]
