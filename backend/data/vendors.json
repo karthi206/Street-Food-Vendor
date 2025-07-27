@@ -13,4 +13,26 @@
     "cuisine": "Chaat & Snacks",
     "rating": 4.2
   }
-]
+
+  {
+    "id": 3,
+    "name": "Café Mocha",
+    "location": "Nungambakkam",
+    "cuisine": "Cafe",
+    "rating": 4.5
+  },
+  {
+    "id": 4,
+    "name": "Dosa Plaza",
+    "location": "Velachery",
+    "cuisine": "South Indian",
+    "rating": 4.0
+  },
+  {
+    "id": 5,
+    "name": "Eataly",
+    "location": "OMR",
+    "cuisine": "Italian",
+    "rating": 4.7
+  }
+]   
