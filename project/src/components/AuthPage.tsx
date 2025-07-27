@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { User, Store, MapPin, Phone, Mail, Lock, UserCheck } from 'lucide-react';
+import { User, Store, MapPin, Phone, Mail, Lock } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import { useLanguage } from '../contexts/LanguageContext';
 import LanguageSelector from './LanguageSelector';
