@@ -1,21 +1,19 @@
-const express = require('express');
-const cors = require('cors');
-const vendors = require('./data/vendors.json');
-
+const express = require("express");
 const app = express();
-const PORT = process.env.PORT || 3000;
+const cors = require("cors");
+const vendors = require("./data/vendors.json");
 
 app.use(cors());
-app.use(express.json());
 
-app.get('/api/vendors', (req, res) => {
+app.get("/", (req, res) => {
+  res.send("✅ Welcome to Street Food Vendor API – backend is running.");
+});
+
+app.get("/api/vendors", (req, res) => {
   res.json(vendors);
 });
-app.get("/", (req, res) => {
-  res.send("Welcome to the Street Food Vendor API 🚀");
-});
 
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
-  
 });
