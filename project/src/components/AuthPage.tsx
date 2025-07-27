@@ -212,9 +212,7 @@ export default function AuthPage() {
           </form>
 
           <div className="mt-6 text-center">
-            <p className="text-sm text-gray-600">
-              Demo Mode: Click "{isLogin ? 'Sign In' : 'Create Account'}" with any data
-            </p>
+
           </div>
         </div>
       </div>
